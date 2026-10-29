@@ -186,6 +186,7 @@ Jev-compatible open runtimes expose the same `POST /v1/systemone` wire format, s
 - [jev-korean-benchmark](https://github.com/mahlernim/jev-korean-benchmark): A study of Korean-language performance.
 - [jev-behavior-study](https://github.com/RINNECODER/jev-behavior-study): A study of sensitivity to question framing.
 - [jevcal](https://github.com/abhixhek/jevcal): Tunes confidence thresholds on your own labeled data.
+- [s1kit](https://github.com/Eliot5566/s1kit): Tests any `/v1/systemone` model (Jev, Laya, Kev, llama.cpp, Ollama) side by side on your own labelled cases, picks per-question confidence cutoffs for a target precision, and routes cheapest-first. MIT, with an offline baseline.
 - [Laya BENCHMARKS.md](https://github.com/NandhaKishorM/laya): Laya's per-language and per-task results, including where it fails.
 - [When a Judgment Layer's Fields Lie](https://doi.org/10.5281/zenodo.22901853): An independent measurement study.
 - [JEV-as-a-Judge: Accept When Confident, Escalate When Unsure](https://arxiv.org/abs/2609.26550) (Li, Miao, Krishnan, Padman, arXiv, September 2026): Compares Jev as an evaluator against 16 generative and reward-model judges, with blinded human adjudication. Jev lands within 3 points of a state-of-the-art LLM judge on preference and factuality at 0.36% of its fee. Its gap is concentrated in low-confidence verdicts, so a cascade that accepts confident verdicts and escalates the rest keeps 99% of the stronger judge's accuracy. [Hugging Face paper page](https://huggingface.co/papers/2609.26550)
